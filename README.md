@@ -17,3 +17,5 @@ Best time complexity occurs when differences between next sorted elements are ze
 best time complexity: O(n)
 average time complexity: O(h - l) where h and l are the biggest and smallest values in the list.
 worst time complexity: O(h - l)
+
+Feel free to use this code where you want, but if it's possible please mark me (https://github.com/kubak14)
