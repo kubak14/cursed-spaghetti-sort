@@ -13,8 +13,8 @@ def spaghetti(iterable, key = None, descending = False) -> 'sorted list':
 ##  (if iterable contains only integers it could be just number
 ##  of elements with this height as value, but list is neccessary
 ##  to keep alghorythm stable)
-    max_value = 0 #highest rod in the list
-    min_value = 0 #shortest rod in the list
+    max_value = float('-inf') #highest rod in the list
+    min_value = float('inf') #shortest rod in the list
 
     for elem in iterable:
 ##      in the first iteration we have to find the highest rod
